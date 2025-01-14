@@ -15,9 +15,11 @@ app.use((req, res, next) => {
 
 // Step 5. Create a route handler to '/' that sends the confetti.html file
 
-// Step 6. Run your server and test your route
+// Step 6. Create a route handler to '/cat' that sends the cat.gif file
 
-// Step 7. Something looks off on your page, figure out why your styling is missing and fix it.
+// Step 7. Run your server and test your route
+
+// Step 8. Something looks off on your confetti page, figure out why your styling is missing and fix it.
 
 
 app.use((req, res, next) => {
